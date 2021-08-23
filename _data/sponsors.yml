@@ -1,0 +1,29 @@
+- name: "School of Informatics"
+  img: inf
+  link: "https://www.ed.ac.uk/informatics/undergraduate/why-study-here/student-societies"
+  width: 418px
+ 
+- name: "Amazon"
+  img: amazon
+  link: "https://www.aboutamazon.co.uk/"
+  width: 325px
+
+- name: "HubSpot"
+  img: HubSpot
+  link: "https://www.hubspot.com/"
+  width: 321px
+
+- name: "Google"
+  img: google
+  link: "https://about.google/"
+  width: 296px
+
+- name: "American Express"
+  img: amex
+  link: ""
+  width: 200px
+
+# - name: "Citi"
+#   img: citi
+#   link: ""
+#   width: 180px
