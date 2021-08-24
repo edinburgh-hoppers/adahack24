@@ -1,11 +1,15 @@
 {% assign nav-items = site.data.nav %}
 
 <nav>
+  <img src="/assets/img/ada-hack-logo-trim.png">
   {% for item in nav-items %}
     <a>{{ item.text }}</a>
   {% endfor %}
+
 </nav>
 
-<script>
-  console.log('{{ nav-items }}');
-</script>
+<div class="progress"></div>
+<!-- <script>
+  console.log(document.html.scrollHeight);
+
+</script> -->
