@@ -33,7 +33,7 @@ nav{
       background-color: $princeton-orange;
     }
   }
- 
+
   img{
     height: 90px;
     width: 90px;
@@ -42,8 +42,7 @@ nav{
     border-radius: 50%;
     box-shadow: 0px 0px 0px 5px $sunglow;
   }
-  
-  
+
   // .circle{
   //   background-color: $light-cyan;
   //   width: 100vw;
@@ -53,9 +52,55 @@ nav{
   // }
 }
 
+.about h1{
+  text-align: center;
+}
+
+.about p{
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
 .hero-section{
   height: 80vh;
   width: 100%;
   display: grid;
   place-content: center;
+}
+
+.footer{
+  padding:40px 0;
+  background-color:#ffffff;
+  color:#4b4c4d;
+}
+
+.footer .social {
+  text-align:center;
+  padding-bottom:25px;
+}
+
+.footer .social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin:0 8px;
+  color:inherit;
+  opacity:0.75;
+}
+
+.footer .social > a:hover {
+  opacity:0.9;
+}
+
+.footer .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
 }
