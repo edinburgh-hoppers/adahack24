@@ -1,10 +1,21 @@
 {% assign nav-items = site.data.nav %}
 
 <nav>
-  <img src="/assets/img/ada-hack-logo-trim.png">
+  <div class="left">
   {% for item in nav-items %}
-    <a>{{ item.text }}</a>
+    {% if item.left %}
+      <a>{{ item.text }}</a>
+    {% endif %}
   {% endfor %}
+</div>
+  <img src="/assets/img/ada-hack-logo-trim.png">
+<div class="right">
+  {% for item in nav-items %}
+    {% if item.right %}
+      <a>{{ item.text }}</a>
+    {% endif %}
+  {% endfor %}
+</div>
 
 </nav>
 

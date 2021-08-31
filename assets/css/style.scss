@@ -8,49 +8,57 @@ $sunglow: #ffcb0eff;
 $princeton-orange: #fd8835ff;
 $light-grey: rgb(239, 239, 239);
 
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
 
 body{
   background-color: $light-grey;
   // width: 100vw;
   margin: 0;
+  font-family: 'Dosis', sans-serif;
 }
 
 nav{
-  height: 50px;
-  background-color: $indigo;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  color: white;
+  z-index: 100;
+
+  height: 70px;
+  // background-color:$indigo;
+  display: grid;
+  grid-template-columns: 5fr 1fr 5fr;
+  grid-template-areas: 'left logo right';
+  justify-content: center;
+  align-items: flex-start;
+  color: $indigo;
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 30px;
+  font-size: 15pt;
+
+  .right, .left{
+    height: inherit;
+    display: flex;
+    align-items: center;
+  }
+  .left{
+    justify-content: flex-end;
+  }
 
   a{
-    padding: 10px 30px;
-    margin: 0 2px;
+    padding: 10px 21px;
+    height: 70%;
+    border-radius: 20px 0 20px 0;
     &:hover{
       background-color: $princeton-orange;
     }
   }
  
   img{
+    grid-area: logo;
     height: 90px;
     width: 90px;
-    margin-right: auto;
-    margin-left: 30px;
+    justify-self: center;
     border-radius: 50%;
     box-shadow: 0px 0px 0px 5px $sunglow;
   }
-  
-  
-  // .circle{
-  //   background-color: $light-cyan;
-  //   width: 100vw;
-  //   height: 100px;
-  //   position: sticky;
-  //   top: 0;
-  // }
 }
 
 .hero-section{
@@ -59,3 +67,23 @@ nav{
   display: grid;
   place-content: center;
 }
+
+.schedule{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 30px 1fr 30px;
+  grid-template-areas: ". content .";
+  .wrapper{
+    grid-area: content;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .event{
+    border-bottom: 1px solid #666;
+  }
+  .row{
+    padding: 20px 0;
+  }
+}
+
