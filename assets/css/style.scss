@@ -12,11 +12,13 @@ $light-grey: rgb(239, 239, 239);
 
 body{
   background-color: $light-grey;
-  // width: 100vw;
   margin: 0;
   font-family: 'Dosis', sans-serif;
 }
 
+.container-fluid{
+  padding: 0 30px;
+}
 nav{
   z-index: 100;
 
@@ -48,6 +50,7 @@ nav{
     border-radius: 20px 0 20px 0;
     &:hover{
       background-color: $princeton-orange;
+      transition: background-color 0.1s;
     }
   }
  
@@ -70,14 +73,6 @@ nav{
 
 .schedule{
   width: 100%;
-  display: grid;
-  grid-template-columns: 30px 1fr 30px;
-  grid-template-areas: ". content .";
-  .wrapper{
-    grid-area: content;
-    width: 100%;
-    padding: 20px;
-  }
 
   .event{
     border-bottom: 1px solid #666;
@@ -87,3 +82,6 @@ nav{
   }
 }
 
+.faq{
+  
+}
