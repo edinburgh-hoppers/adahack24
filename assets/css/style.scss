@@ -61,7 +61,7 @@ nav{
       transition: background-color 0.1s;
     }
   }
- 
+
   img{
     grid-area: logo;
     height: 90px;
@@ -70,6 +70,15 @@ nav{
     border-radius: 50%;
     box-shadow: 0px 0px 0px 5px $sunglow;
   }
+}
+
+.about h1{
+  text-align: center;
+}
+
+.about p{
+  margin-right: 100px;
+  margin-left: 100px;
 }
 
 .hero-section{
