@@ -4,6 +4,7 @@
 $languid-lavender: #e6d7feff;
 $indigo: #3c0494ff;
 $light-cyan: #cbf1f7ff;
+$lighter-cyan: rgb(223, 243, 246);
 $sunglow: #ffcb0eff;
 $princeton-orange: #fd8835ff;
 $light-grey: rgb(239, 239, 239);
@@ -11,7 +12,7 @@ $light-grey: rgb(239, 239, 239);
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
 
 body{
-  background-color: $light-grey;
+  background-color: $lighter-cyan;
   margin: 0;
   font-family: 'Dosis', sans-serif;
 }
