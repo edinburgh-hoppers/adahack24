@@ -42,13 +42,21 @@ nav{
   }
   .left{
     justify-content: flex-end;
+    margin-right: 10px;
+  }
+  .right{
+    margin-left: 10px;
   }
 
   a{
+    text-decoration: none;
+    color: $indigo;
     padding: 10px 21px;
     height: 70%;
     border-radius: 20px 0 20px 0;
     &:hover{
+      text-decoration: none;
+      color: $indigo;
       background-color: $princeton-orange;
       transition: background-color 0.1s;
     }

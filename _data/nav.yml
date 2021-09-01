@@ -1,15 +1,15 @@
 - text: "About Us"
-  href:
+  href: 
   left: yes
 
 - text: "Schedule"
-  href: 
+  href: "#schedule"
   left: yes
 
 - text: "FAQ"
-  href: 
+  href: "#faq"
   right: yes
-  
+
 
 
 
