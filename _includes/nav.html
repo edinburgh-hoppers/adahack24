@@ -19,8 +19,29 @@
 
 </nav>
 
-<div class="progress"></div>
-<!-- <script>
-  console.log(document.html.scrollHeight);
+<script>
+  var threshold;
+  var disabled = false;
+  var nav = document.getElementsByTagName('nav')[0];
+  window.onload = function() {
+    threshold = document.getElementsByClassName('hero-section')[0].getBoundingClientRect().y;
+    console.log(threshold);
+  }
 
-</script> -->
+  window.onscroll = function(){
+    let currPos = document.getElementsByClassName('hero-section')[0].getBoundingClientRect().y;
+    // console.log(currPos);
+    if(currPos < threshold){
+      disabled = true;
+      console.log("true")
+      nav.style.backgroundColor = "#3c0494ff";
+      document.querySelectorAll('nav a').forEach(e => e.style.color = "white");
+    }
+    else{
+      disabled = false;
+      nav.style.backgroundColor = "transparent";
+      document.querySelectorAll('nav a').forEach(e => e.style.color = "#3c0494ff");
+    }
+  }
+  
+</script>

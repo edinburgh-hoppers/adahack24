@@ -2,9 +2,13 @@
   href: 
   left: yes
 
+- text: "Sponsors"
+  href: "#sponsors"
+  left: yes
+
 - text: "Schedule"
   href: "#schedule"
-  left: yes
+  right: yes
 
 - text: "FAQ"
   href: "#faq"
