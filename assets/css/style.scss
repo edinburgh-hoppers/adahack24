@@ -7,23 +7,31 @@ $light-cyan: #cbf1f7ff;
 $lighter-cyan: rgb(223, 243, 246);
 $sunglow: #ffcb0eff;
 $princeton-orange: #fd8835ff;
-$light-grey: rgb(239, 239, 239);
+$light-grey: rgb(249, 249, 249);
 
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
 
+html {
+  scroll-behavior: smooth;
+}
+
 body{
-  background-color: $lighter-cyan;
+  background-color: $light-grey;
   margin: 0;
   font-family: 'Dosis', sans-serif;
 }
 
-.container-fluid{
-  padding: 0 30px;
+p{
+  font-size: 14pt;
+}
+
+.container{
+  padding: 0 100px;
 }
 
 nav{
   z-index: 100;
-
+  width: 100vw;
   height: 70px;
   // background-color:$indigo;
   display: grid;
@@ -32,8 +40,8 @@ nav{
   justify-content: center;
   align-items: flex-start;
   color: $indigo;
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
+  position: -webkit-fixed; /* Safari */
+  position: fixed;
   top: 30px;
   font-size: 15pt;
   transition: background-color 0.15s;
@@ -59,8 +67,9 @@ nav{
     &:hover{
       text-decoration: none;
       color: $indigo;
-      background-color: $princeton-orange;
+      background-color: $sunglow;
       transition: background-color 0.1s;
+      // text-shadow: 1px 1px 0px #aaa;
     }
   }
 
@@ -72,39 +81,97 @@ nav{
     border-radius: 50%;
     box-shadow: 0px 0px 0px 5px $sunglow;
   }
+
+  @media (max-width: 400px) {
+    nav{
+      font-size: 12pt;
+    }
+  }
 }
 
-.about h1{
-  text-align: center;
-}
+.about{
+  padding-top: 20vh;
 
-.about p{
-  margin-right: 100px;
-  margin-left: 100px;
+  h1{
+    text-align: center;
+  }
+
+  h1:before, h1:after{
+
+  }
+
+  p{
+    margin-right: 100px;
+    margin-left: 100px;
+  }
+
 }
 
 .hero-section{
-  height: 80vh;
+  height: 100vh;
   width: 100%;
+  margin: none;
   display: grid;
   place-content: center;
+  position: relative;
+  overflow: hidden;
+  
+
+  .background-wrapper{
+    height: 200vh;
+    width: 130vw;
+    overflow: hidden;
+    background: url(../img/pattern-randomized(1).svg);
+    background-repeat: none;
+    background-size: cover;
+    animation: rotating 40s linear infinite forwards;
+    display: grid;
+    place-content: center;
+  }
+
+  .text-wrapper{
+    animation: reverse-rotating 40s linear infinite forwards;
+  }
+
+  h1{
+    font-size: 40pt;
+  }
+
+  button{
+    border: none; 
+    background-color: $indigo;
+    font-weight: 600;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    transition: border-radius 0.2s;
+    &:hover{
+      border-radius: 20px 0 20px 0;
+      transition: border-radius 0.2s;
+    }
+  }
 }
 
 .schedule{
-  margin-top: 10vh;
+  padding-top: 20vh;
   width: 100%;
   text-align: center;
   .event{
-    border-bottom: 1px solid #666;
+    border-bottom: 1px solid $languid-lavender;
     text-align: left;
   }
+
+  .eventTitle{
+    color: $princeton-orange;
+  }
+
   .row{
     padding: 20px 0;
   }
 }
 
 .faq{
-  margin-top: 10vh;
+  padding-top: 25vh;
   h1{
     text-align: center;
   }
@@ -112,6 +179,8 @@ nav{
     padding: 10px 0;
   }
 }
+
+
 
 .footer{
   padding:40px 0;
@@ -152,5 +221,24 @@ nav{
 
 
 .sponsors{
+  padding-top: 20vh;
   text-align: center;
+}
+
+@keyframes rotating {
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes reverse-rotating {
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(-360deg);
+  }
 }

@@ -11,15 +11,22 @@
 
   <div class="">
     <div class="hero-section">
-        <h1 class="mb-3 text-center">
-            {{ page.title }}
-        </h1>
+      <div class="background-wrapper">
+        <div class="text-wrapper">
+          <h1 class="mb-3 text-center">
+              {{ page.title }}
+          </h1>
 
-        {% if page.subtitle %}
-          <h2 class="text-center mb-3">{{ page.subtitle }}</h2>
-        {% endif %}
+          {% if page.subtitle %}
+            <h2 class="text-center mb-3">{{ page.subtitle }}</h2>
+          {% endif %}
+          <div>
+            <button>Register as a mentor</button>
+            <button>Register as a hacker</button>
+          </div>
+      </div>
     </div>
-        <hr class="mb-4">
+  </div>
         {{ content }}
   </div>
 
