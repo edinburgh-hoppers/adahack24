@@ -177,11 +177,21 @@ nav{
     color: $princeton-orange;
   }
 
+  hr{
+    background-color: $indigo;
+  }
+
   .row{
     padding: 5px 0;
     &:hover{
-      background-color: rgba($sunglow, 0.1);
+      background-color: rgba($sunglow, 0.08);
     }
+  }
+
+  .eventDate{
+    background-color: $indigo;
+    color:rgb(249, 249, 249);
+    padding: 10px 0;
   }
 }
 

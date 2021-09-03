@@ -26,7 +26,7 @@ function init() {
           if (!date.isSame(eventDate)) {
             formattedDate = eventDate.format("ddd, Do MMMM");
             $('#events').append(
-              '<div style="margin: 40px;"><h4 class="eventDate"><span>' + formattedDate + '</span></h4></div>' +
+              '<div style="margin: 40px;" class="eventDate"><h4><span>' + formattedDate + '</span></h4></div>' +
               '<div class="row event">' +
               '<div class="col-sm-2 eventLeft" >' +
                 '<h5 id="time"><b>' + data[i].Time + '</b></h5></div>' +
