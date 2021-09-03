@@ -121,16 +121,16 @@ nav{
     height: 200vh;
     width: 130vw;
     overflow: hidden;
-    background: url(../img/pattern-randomized(1).svg);
+    background-image: url('../img/hero-section-background.svg');
     background-repeat: none;
     background-size: cover;
-    animation: rotating 40s linear infinite forwards;
+    animation: rotating 100s linear infinite forwards;
     display: grid;
     place-content: center;
   }
 
   .text-wrapper{
-    animation: reverse-rotating 40s linear infinite forwards;
+    animation: reverse-rotating 100s linear infinite forwards;
   }
 
   h1{
