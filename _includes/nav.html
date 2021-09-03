@@ -33,8 +33,9 @@
     if(currPos < threshold){
       console.log("true")
       nav.style.backgroundColor = "#3c0494ff";
+
       document.querySelectorAll('nav a').forEach(e => {
-        e.style.color = "white";
+        e.classList.add('with-background');
       //  listener1 = e.addEventListener("mouseenter", function( event ) {
       //     event.target.style.color = "#3c0494ff";
       // });
@@ -46,7 +47,7 @@
     else{
       disabled = false;
       nav.style.backgroundColor = "transparent";
-      document.querySelectorAll('nav a').forEach(e => e.style.color = "#3c0494ff");
+      document.querySelectorAll('nav a').forEach(e => e.classList.remove('with-background'));
       // listener1 = e.addEventListener("mouseenter", function( event ) {
       //     event.target.style.color = "#3c0494ff";
       // });
