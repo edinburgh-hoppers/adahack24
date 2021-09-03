@@ -31,14 +31,15 @@ p{
 
 .schedule, .about, .faq, .sponsors{
   width: 80vw;
-  padding: 10px;
+  padding: 10px 5vw;
   box-shadow: 0px 0px 2px 5px $indigo;
   margin-top: 40px;
   margin-bottom: 30px;
   transition: box-shadow 0.15s;
+  background-color: rgba(255,255,255,0.5);
 
   &:hover{
-    box-shadow: 0px 0px 2px 5px $indigo, 0px 0px 5px 10px $princeton-orange;
+    box-shadow: 0px 0px 2px 5px $indigo, 0px 0px 5px 10px $sunglow;
   }
 }
 
@@ -120,6 +121,9 @@ nav{
   h1:before, h1:after{
 
   }
+  p{
+    text-align: justify;
+  }
 
 }
 
@@ -193,6 +197,10 @@ nav{
     color:rgb(249, 249, 249);
     padding: 10px 0;
   }
+
+  #time{
+    text-align: right;
+  }
 }
 
 .faq{
@@ -248,6 +256,15 @@ nav{
   font-size:13px;
   color:#aaa;
   margin-bottom:0;
+
+  &::selection{
+    background-color: $indigo;
+    color: white;
+  }
+}
+
+.footer i{
+  color: $indigo;
 }
 
 
