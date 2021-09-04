@@ -152,11 +152,12 @@ nav{
     font-size: 40pt;
   }
 
-  button{
+  a{
     border: none; 
     background-color: $indigo;
     font-weight: 600;
     color: white;
+    text-decoration: none;
     padding: 10px;
     margin: 10px;
     transition: border-radius 0.2s;
@@ -164,6 +165,10 @@ nav{
       border-radius: 20px 0 20px 0;
       transition: border-radius 0.2s;
     
+    }
+
+    a:not([href]){
+      color: white;
     }
   }
 
