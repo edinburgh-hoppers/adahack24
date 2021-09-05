@@ -1,18 +1,19 @@
-- text: "Events"
-  href: events
- 
-- text: "Team"
-  href: team
-
 - text: "About Us"
-  href: aboutUs
+  href: "#about"
+  left: yes
 
 - text: "Sponsors"
-  href: sponsors
-    
-- text: "Contact Us"
-  href: contact
+  href: "#sponsors"
+  left: yes
 
-- text: "Scholarship"
-  href: scholarship
+- text: "Schedule"
+  href: "#schedule"
+  right: yes
+
+- text: "FAQ"
+  href: "#faq"
+  right: yes
+
+
+
 

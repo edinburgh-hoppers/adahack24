@@ -17,7 +17,7 @@ title: AdaHack
 email: edinburghhoppers@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Edinburgh Hoppers Official Website
-baseurl: "/website" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://hoppers.inf.ed.ac.uk/" # the base hostname & protocol for your site, e.g. http://example.com
 
 
