@@ -22,6 +22,7 @@ body{
   font-family: 'Dosis', sans-serif;
   display: grid;
   place-content: center;
+  overflow-x: hidden;
 }
 
 p{
@@ -30,7 +31,7 @@ p{
 
 .schedule, .about, .faq, .sponsors, .footer{
   width: 70vw;
-  padding: 10px 5vw;
+  padding: 15vh 5vw;
   box-shadow: 0px 0px 2px 5px $indigo;
   margin-top: 40px;
   margin-bottom: 30px;
@@ -45,6 +46,7 @@ p{
 nav{
   z-index: 100;
   height: 70px;
+  width: 100vw;
   display: grid;
   grid-template-columns: 5fr 1fr 5fr;
   grid-template-areas: 'left logo right';
@@ -100,8 +102,8 @@ nav{
     box-shadow: 0px 0px 0px 5px $sunglow;
   }
 
-  @media (max-width: 500px) {
-    font-size: 10pt;
+  @media (max-width: 555px) {
+    font-size: 11pt;
     height: 50px;
 
     .right{
