@@ -17,7 +17,7 @@ title: AdaHack
 email: adahack21@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   AdaHack website
-baseurl: "/adahack" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 
 
 # Build settings
