@@ -319,9 +319,10 @@ nav{
     justify-content: center;
 
     img{
-      max-width: 200px;
-      max-height: 150px;
-      margin: 10px;
+        width: auto;
+        min-width: 100px;
+        max-width: 250px;
+      margin: 20px;
     }
   }
 }
