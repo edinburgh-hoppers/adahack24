@@ -1,0 +1,15 @@
+- name: ThoughtMachine
+  logo: thoughtmachine.png
+  website: something.com
+
+- name: Smartsheet
+  logo: smartsheet.png
+  website: something.com
+
+- name: Google
+  logo: google.png
+  website: google.com
+
+- name: HubSpot
+  logo: HubSpot.png
+  website: https://hubspot.com

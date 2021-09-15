@@ -1,9 +1,18 @@
-<div id="sponsors" class="sponsors container-fluid">
-    <h1>Sponsors</h1>
-    <div class="sponsor-logos">
-        <!-- <img src="{{ '/assets/img/sponsors/google.png' | relative_url }}"> -->
-        <img src="{{ '/assets/img/sponsors/smartsheet.png' | relative_url }}">
-        <img src="{{ '/assets/img/sponsors/thoughtmachine.png' | relative_url }}">
+{% assign sponsors = site.data.sponsors %}
+
+<div class="sponsors container-fluid">
+<h1>Sponsors</h1>
+<section class="sponsors-grid">
+    {% for company in sponsors %}
+    <div class="sponsor">
+      <div class="sponsor-image-wrapper">
+        <a href="{{ company.website }}" target="_blank">
+          <img class="sponsor-image" src="{{site.baseurl}}/assets/img/sponsors/{{ company.logo }}"
+            alt="Logo for {{ company.name }}">
+        </a>
+      </div>
+      <h5>{{ company.name }}</h5>
     </div>
-    
+    {% endfor %}
+  </section>
 </div>
