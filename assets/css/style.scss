@@ -136,6 +136,22 @@ nav{
     text-align: justify;
   }
 
+  a{
+    color: $indigo;
+    height: 100%;
+    font-weight: bold;
+    padding: 1px;
+  }
+
+  a:hover{
+    text-decoration: none;
+    box-shadow: 0 0 0px 2px $sunglow;
+    transition: box-shadow 100ms;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+
 }
 
 .hero-section{
@@ -256,6 +272,25 @@ nav{
     padding: 10px 0;
     display: grid;
     justify-content: start;
+    h4,h5{
+      line-height:1cm;
+    }
+  }
+
+  a{
+    color: $indigo;
+    height: 100%;
+    font-weight: bold;
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+
+  a:hover{
+    text-decoration: none;
+    box-shadow: 0 0 0px 2px $sunglow;
+    transition: box-shadow 100ms;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
   }
 }
 
