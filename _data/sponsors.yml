@@ -1,3 +1,7 @@
+- name: Cisco
+  logo: cisco.png
+  website: https://cisco.com
+  
 - name: ThoughtMachine
   logo: thoughtmachine.png
   website: something.com
@@ -13,3 +17,4 @@
 - name: HubSpot
   logo: HubSpot.png
   website: https://hubspot.com
+
