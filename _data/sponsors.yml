@@ -1,7 +1,7 @@
 - name: Cisco
   logo: cisco.png
   website: https://cisco.com
-  
+
 - name: ThoughtMachine
   logo: thoughtmachine.png
   website: something.com
@@ -18,3 +18,6 @@
   logo: HubSpot.png
   website: https://hubspot.com
 
+- name: BlackRock
+  logo: blackrock.png
+  website: https://www.blackrock.com/uk
