@@ -7,8 +7,15 @@
     <div class="sponsor">
       <div class="sponsor-image-wrapper">
         <a href="{{ company.website }}" target="_blank">
-          <img class="sponsor-image" src="{{site.baseurl}}/assets/img/sponsors/{{ company.logo }}"
-            alt="Logo for {{ company.name }}">
+          <img class="sponsor-image" 
+            src="{{site.baseurl}}/assets/img/sponsors/{{ company.logo }}"
+            alt="Logo for {{ company.name }}"
+            {% if company.width %}
+              width="{{ company.width }}"
+            {% endif %}
+            {% if company.height %}
+              height="{{ company.height }}"
+            {% endif %}>
         </a>
       </div>
       <h5>{{ company.name }}</h5>

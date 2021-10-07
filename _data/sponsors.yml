@@ -1,23 +1,34 @@
 - name: Cisco
   logo: cisco.png
   website: https://cisco.com
+  width: 150px
 
 - name: ThoughtMachine
   logo: thoughtmachine.png
   website: something.com
+  width: 150px
 
 - name: Smartsheet
   logo: smartsheet.png
   website: something.com
+  width: 160px
 
 - name: Google
   logo: google.png
   website: google.com
+  width: 150px
 
 - name: HubSpot
   logo: HubSpot.png
   website: https://hubspot.com
+  width: 150px
 
 - name: BlackRock
   logo: blackrock.png
   website: https://www.blackrock.com/uk
+  width: 180px
+
+- name: StickerMule
+  logo: sticker-mule.svg
+  width: 180px
+  website: http://hackp.ac/mlh-stickermule-hackathons
