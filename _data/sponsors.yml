@@ -5,17 +5,17 @@
 
 - name: ThoughtMachine
   logo: thoughtmachine.png
-  website: something.com
+  website: https://thoughtmachine.net/
   width: 150px
 
 - name: Smartsheet
   logo: smartsheet.png
-  website: something.com
+  website: https://www.smartsheet.com/
   width: 160px
 
 - name: Google
   logo: google.png
-  website: google.com
+  website: https://careers.google.com/
   width: 150px
 
 - name: HubSpot
