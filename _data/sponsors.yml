@@ -13,11 +13,6 @@
   website: https://www.smartsheet.com/
   width: 160px
 
-- name: Google
-  logo: google.png
-  website: https://careers.google.com/
-  width: 150px
-
 - name: HubSpot
   logo: HubSpot.png
   website: https://hubspot.com
