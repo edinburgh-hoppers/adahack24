@@ -1,29 +1,2 @@
-- name: Cisco
-  logo: cisco.png
-  website: https://cisco.com
-  width: 160px
 
-- name: ThoughtMachine
-  logo: thoughtmachine.png
-  website: https://thoughtmachine.net/
-  width: 160px
 
-- name: BlackRock
-  logo: blackrock.png
-  website: https://www.blackrock.com/uk
-  width: 180px
-
-- name: Bloomberg
-  logo: bloomberg.png
-  width: 160px
-  website: https://bloomberg.com
-
-- name: StickerMule
-  logo: sticker-mule.svg
-  width: 180px
-  website: http://hackp.ac/mlh-stickermule-hackathons
-
-- name: HubSpot
-  logo: HubSpot.png
-  website: https://hubspot.com
-  width: 150px
