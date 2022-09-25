@@ -29,7 +29,7 @@ p{
   font-size: 14pt;
 }
 
-.schedule, .about, .faq, .sponsors, .footer{
+.schedule, .about, .faq, .sponsors, .footer, .location{
   width: 70vw;
   padding: 15vh 5vw;
   box-shadow: 0px 0px 2px 5px $indigo;
@@ -269,14 +269,15 @@ nav{
     text-align: center;
   }
   .qanda{
-    padding: 10px 0;
+    font-size: 4vw ;
+    padding : 10px 0;
     display: grid;
     justify-content: start;
-    h4,h5{
+    h4,h5,h6{
       line-height:1cm;
     }
   }
-
+ 
   a{
     color: $indigo;
     height: 100%;
@@ -384,3 +385,57 @@ nav{
 
 }
 
+.location {
+
+  wrapper {
+      display: flex;
+      flex-direction: column;
+    }
+
+    h1 {
+      text-align: center;
+    }
+    
+  
+    @media (min-width: 769px) {
+      .location {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      iframe{ margin: 20px; }
+
+    }
+
+        .location .map iframe {
+    
+          width: 100%;
+          height: 50vh;
+    
+        }
+
+    
+    .float-left {
+     float: left;
+    }
+
+    .directions{
+      margin-top: 50px;
+    }
+    
+    a {
+      color: $indigo;
+      height: 100%;
+      font-weight: bold;
+      padding-left: 2px;
+      padding-right: 2px;
+    }
+    
+    a:hover {
+      text-decoration: none;
+      box-shadow: 0 0 0px 2px $sunglow;
+      transition: box-shadow 100ms;
+      border-top-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+  }
+ 
