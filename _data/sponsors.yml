@@ -12,3 +12,13 @@
   logo: scottlogic.png
   website: https://www.scottlogic.com/
   width: 220px
+  
+- name: Edinburgh University Programming Society
+  logo: eups.png
+  website: https://ediprogsoc.co.uk/
+  width: 85px
+
+- name: Edinburgh University F1 Society
+  logo: eufs.png
+  website: https://www.eufs.co/
+  width: 45px
