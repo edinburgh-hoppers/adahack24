@@ -1,15 +1,15 @@
 - text: "About Us"
-  href: "#about"
+  href: "https://adahack.edinburghhoppers.com/#about"
   left: yes
 
 - text: "Schedule"
-  href: "#schedule"
+  href: "https://adahack.edinburghhoppers.com/#schedule"
   left: yes
 
 - text: "Sponsors"
-  href: "#sponsors"
+  href: "https://adahack.edinburghhoppers.com/#sponsors"
   right: yes
 
 - text: "FAQ"
-  href: "#faq"
+  href: "https://adahack.edinburghhoppers.com/#faq"
   right: yes
