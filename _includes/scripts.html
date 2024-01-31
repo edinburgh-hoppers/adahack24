@@ -24,26 +24,13 @@ function init() {
 
         for (var i = 0; i < data.length; i++) {
           eventDate = moment(data[i].Date, "DD/MM/YYYY");
-          if (!date.isSame(eventDate)) {
-            formattedDate = eventDate.format("ddd, Do MMMM");
-            $('#events').append(
-              '<div style="margin: 40px;" class="eventDate"><h4><span>' + formattedDate + '</span></h4></div>' +
+          $('#events').append(
               '<div class="row event">' +
               '<div class="col-sm-4 eventLeft" >' +
                 '<h5 id="time"><b>' + data[i].Time + '</b></h5></div>' +
               '<div class="col-sm-6 eventRight">' +
                 '<h5 class="eventTitle">' + data[i].Title +  '</h5>'
             );
-            
-          } else {
-            $('#events').append(
-              '<div class="row event">' +
-              '<div class="col-sm-4 eventLeft" >' +
-                '<h5 id="time"><b>' + data[i].Time + '</b></h5></div>' +
-              '<div class="col-sm-6 eventRight">' +
-                '<h5 class="eventTitle">' + data[i].Title +  '</h5>'
-            );
-          }
           date = eventDate;
         }
       }

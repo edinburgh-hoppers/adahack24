@@ -1,34 +1,31 @@
-- name: School of Informatics, University of Edinburgh
-  logo: inf.png
-  website: https://www.ed.ac.uk/informatics/
-  width: 220px
+- name: Bloomberg
+  logo: bloomberg.png
+  website: https://www.bloomberg.com
 
-#- name: Palantir Companies
-#  logo: palantir.png
-#  website: https://www.palantir.com/uk/
-#  width: 220px
+- name: Google
+  logo: google.png
+  website: https://www.google.com
+
+- name: Optiver
+  logo: optiver.png
+  website: https://www.optiver.com
+
+- name: Palantir
+  logo: palantir.png
+  website: https://www.palantir.com/uk
+
+- name: Skyscanner
+  logo: skyscanner.png
+  website: https://www.skyscanner.net/jobs/earlycareers
+
+- name: SmartSheet
+  logo: smartsheet.png
+  website: https://www.smartsheet.com/customers-home
+
+- name: Stripe
+  logo: stripe.png
+  website: https://stripe.com
 
 - name: Scott Logic
-  logo: scottlogic.png
-  website: https://www.scottlogic.com/
-  width: 220px
-  
-- name: Edinburgh University Programming Society
-  logo: eups.png
-  website: https://ediprogsoc.co.uk/
-  width: 85px
-
-- name: Edinburgh University F1 Society
-  logo: eufs.png
-  website: https://www.eufs.co/
-  width: 45px
-  
-- name: Stand Out Stickers
-  logo: standoutstickers.png
-  website: https://www.standoutstickers.com/?utm_campaign=events-league-organizers-spring2022&utm_medium=email&utm_source=customerio-zoho_creator_-_standout_sticker_intro
-  width: 175px
-
-- name: HumanEd- Edinburgh University Humanoid Robotics Society
-  logo: humanEd.png
-  website: https://humaned.github.io/
-  width: 80px
+  logo: scott-logic.png
+  website: https://www.scottlogic.com
