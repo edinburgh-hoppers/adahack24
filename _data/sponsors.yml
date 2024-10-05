@@ -8,7 +8,7 @@
   
 - name: CompSoc
   logo: compsoc.png
-  website: https://comp-soc.com/events
+  website: https://comp-soc.com/
 
 - name: Edinburgh Formula Student 
   logo: efs.png
@@ -17,4 +17,7 @@
 - name: HandsOn
   logo: handson.png
   website: https://www.instagram.com/handsonuoe/
-  
+
+- name: Optiver
+  logo: optiver.png
+  website: https://optiver.com
