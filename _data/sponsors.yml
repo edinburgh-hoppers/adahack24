@@ -1,31 +1,20 @@
-- name: Bloomberg
-  logo: bloomberg.png
-  website: https://www.bloomberg.com
-
-- name: Google
-  logo: google.png
-  website: https://www.google.com
-
-- name: Optiver
-  logo: optiver.png
-  website: https://www.optiver.com
-
-- name: Palantir
-  logo: palantir.png
-  website: https://www.palantir.com/uk
-
 - name: Skyscanner
   logo: skyscanner.png
   website: https://www.skyscanner.net/jobs/earlycareers
 
-- name: SmartSheet
-  logo: smartsheet.png
-  website: https://www.smartsheet.com/customers-home
+- name: BlackRock
+  logo: blackrock.png
+  website: https://www.blackrock.com/uk
+  
+- name: CompSoc
+  logo: compsoc.png
+  website: https://comp-soc.com/events
 
-- name: Stripe
-  logo: stripe.png
-  website: https://stripe.com
+- name: Edinburgh Formula Student 
+  logo: efs.png
+  website: https://www.eufs.co
 
-- name: Scott Logic
-  logo: scott-logic.png
-  website: https://www.scottlogic.com
+- name: HandsOn
+  logo: handson.png
+  website: https://www.instagram.com/handsonuoe/
+  

@@ -1,35 +1,24 @@
+
+- title: Where can I register as a participant, volunteer, or mentor?
+  content: <a href="https://docs.google.com/forms/d/e/1FAIpQLSeuJWjdneyl2K5xZrHsCyrsheoIGpLAXVETcUCABfWOMszqfA/viewform?usp=sf_link" target="_blank">Participant</a> sign up / <a href="https://forms.gle/MPFeVbdXbcseVLX39" target="_blank">Mentor</a> sign up / <a href="https://docs.google.com/forms/d/e/1FAIpQLSd03RA6e_ZuRy7o3rbyrVQtHD9wi9p5Ue5kA2ju965OP2Q5Lg/viewform?usp=sf_link" target="_blank">Volunteer</a> sign up. 
+
 - title: I am a postgraduate student, can I participate?
-  content: Yes you can! The hackathon is open to students of all levels of study from universities across Edinburgh.
-
-- title: I don't study at a university in Edinburgh, can I still participate?
-  content: Unfortunately, we are only opening the hackathon to students studying at universities in Edinburgh.
-
-- title: I identify with being a gender minority, can I participate?
-  content: Yes you can! Edinburgh Hoppers caters to hosting events for gender minorities.
+  content: Yes you can! The hackathon is open to students of all levels of study from universities across the UK.
 
 - title: I don't have a team, can I join?
-  content: Yes! We will be forming teams on-site prior to the opening ceremony. You can also submit an individual project if required.
+  content: Yes! We will be forming teams on-site prior to the opening ceremony. Teams have a maximum size of 4 people. You can also come along with a team pre-prepared if you'd like.
+
+- title: I'm not great at programming, will I still be able to do the workshops and challenges?
+  content: Yes! Most workshops and challenges are beginner-friendly, with a few more difficult challenges for those who feel more confident.
 
 - title: I don't study informatics, can I join?
   content: Yes, you can. This hackathon is opened to students from any degree programme.
 
-- title: I don't program, will I still be able to do the workshop?
-  content: Yes! Our workshops and challenges are beginner-friendly.
-
-- title: I want to participate alone, is that possible?
-  content: Though we highly recommend taking part in a team, participating alone is allowed.
-
-- title: What software tools will be provided?
-  content: We will send a list of instructions, rules and software tools at your disposable before the hackathon, so don't worry about the logistics!
-
-- title: Will there be mentors present to help struggling teams during the hackathon?
-  content: Yes! Mentors will be present throughout the event for any help or guidance.
-
-- title: Is there anything that I need to prepare for?
-  content: Nothing specific needs to be done before the hackathon, but if you would like to get a headstart you can attend some of our workshops!
+- title: Will there be mentors present to help if we're struggling during the hackathon?
+  content: Yes, we'll have lots of experienced mentors to help with any problems you have.
 
 - title: Will there be prizes?
-  content: You bet!
+  content: Yes! Prizes will be available for each challenge as well as the mini games - there's lots of chances to win!
 
-- title: Where can I register as a participant or a volunteer?
-  content: You can register as a participant <a href="https://forms.gle/CRX8SdFRaZ9dfwZs9" target="_blank">here</a>. You can register as a mentor <a href="https://forms.gle/Cf67j6p4zDahLr7B6" target="_blank">here</a>.
+- title: Is there anything that I need to prepare before the event?
+  content: Nothing specific needs to be done before the hackathon.
