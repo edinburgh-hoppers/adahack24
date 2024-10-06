@@ -8,7 +8,7 @@
         {% endif %}
         {% endfor %}
     </div>
-    <a href="https://adahack.edinburghhoppers.com/#"><img src="{{ '/assets/img/adahack-logo-2023.png' | relative_url }}"></a>
+    <a href="https://adahack.edinburghhoppers.com/#"><img src="{{ '/assets/img/adahack-logo-2024.png' | relative_url }}"></a>
     <div class="right">
         {% for item in nav-items %}
         {% if item.right %}
@@ -31,7 +31,7 @@
         let currPos = document.getElementsByClassName('hero-section')[0].getBoundingClientRect().y;
         if (currPos < threshold) {
             console.log("true");
-            nav.style.backgroundColor = "#3c0494ff";
+            nav.style.backgroundColor = "#213b76";
             document.querySelectorAll('nav a').forEach(e => {
                 e.classList.add('with-background');
             });
