@@ -2,9 +2,9 @@
   href: "https://adahack.edinburghhoppers.com/#about"
   left: yes
 
-# - text: "Schedule"
-#   href: "https://adahack.edinburghhoppers.com/#schedule"
-#   left: yes
+- text: "Schedule"
+  href: "https://adahack.edinburghhoppers.com/#schedule"
+  left: yes
 
 - text: "Partners"
   href: "https://adahack.edinburghhoppers.com/#sponsors"

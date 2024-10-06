@@ -1,10 +1,14 @@
+- name: BlackRock
+  logo: blackrock.png
+  website: https://www.blackrock.com/uk
+
 - name: Skyscanner
   logo: skyscanner.png
   website: https://www.skyscanner.net/jobs/earlycareers
 
-- name: BlackRock
-  logo: blackrock.png
-  website: https://www.blackrock.com/uk
+- name: Optiver
+  logo: optiver.png
+  website: https://optiver.com
   
 - name: CompSoc
   logo: compsoc.png
@@ -17,7 +21,3 @@
 - name: HandsOn
   logo: handson.png
   website: https://www.instagram.com/handsonuoe/
-
-- name: Optiver
-  logo: optiver.png
-  website: https://optiver.com
